@@ -1,0 +1,488 @@
+
+/*-------------------Home Page ---------------*/
+
+body {font-family: 'Raleway', sans-serif;}
+
+.head_top {background: #21b89a; height: 55px}
+.head_menu .logo { float: left; padding-top: 14px} 
+.head_menu .form {float: left;width: 325px;position: relative; padding-left: 132px;margin-left: 12px;padding-top: 10px;border-radius: 0px }
+.head_menu .form .form-select {position: absolute;width: 130px;left: 0px;top: 10px; border-radius: 0px;
+background: #0d9a7e url(../image/downicon.png) 110px 12px no-repeat;  border: none;color: #ffff; box-shadow: none;}
+.head_menu .form .search .form-control {background: #0d9a7e; border:none;color: #fff;box-shadow: none;}
+
+.head_menu .form .search {position: relative;}
+button.btn.btn.secondary { position: absolute;right: 0px;top: 0px;background: #125245;padding: 6px 15px 4px 15px;}
+button.btn.btn.secondary:hover { background: #cf4d43 }
+
+
+ .head_menu .number { float: left; margin-left: 15px; margin-top: 12px; }
+ .head_menu .number p { font-weight: bold; background: url(../image/call.png) 0px 9px no-repeat;
+  padding: 0px 0px 0px 16px;font-size: 20px; font-family: Open sans-serif;} 
+
+.head_menu .button { display: inline-block; margin-top: 11px; float: left; }
+.head_menu .button p {}
+.head_menu .button p a {background: #cf4d43 url(../image/arrowright.png) 116px 11px no-repeat ; padding: 7px 0px 7px 10px;color: #fff;
+    text-decoration: none;border-radius: 5px;font-size: 13px; width: 140px; display: block; margin-left: 10px;
+ font-weight: bold; }   
+.head_menu .button p a:hover { background: #000 url(../image/arrowright.png) 116px 11px no-repeat }
+.head_menu .form_btn { float: left; margin-top: 10px; background: #125245  url(../image/category.png) 8px 12px no-repeat;border-radius: 4px 0px 0px 4px;  margin-left: 8px}
+.head_menu .form_btn .form-select { background:url(../image/downicon.png) 125px 12px no-repeat;width: 146px;
+   border: none;color: #fff; padding-left: 30px; box-shadow: none;}
+
+
+.head_menu .Signup { float: left;margin-top: 15px;margin-left: 2px;}
+.head_menu .Signup p a {background: #0d9a7e;padding: 9px 15px 9px 15px;color: #fff;text-decoration: none;font-size: 15px;}
+.head_menu .Signup p a:hover { background: #cf4d43 } 
+
+.head_menu .login { float: left;margin-top: 15px;margin-left: 2px;}
+.head_menu .login p a {background: #0d9a7e;padding: 9px 15px 9px 15px;color: #fff;text-decoration: none;font-size: 15px;}
+.head_menu .login p a:hover { background: #cf4d43 } 
+
+
+
+
+.banner_section { background: url(../image/banimg.jpg); height: 636px; background-size: cover; }
+.banner_section h1 { text-align: center; color: #fff;font-size: 38px;font-weight: 400; padding-top: 190px}  
+.banner_section h2 { text-align: center;color: #71b519;font-weight: bold;font-size: 50px; line-height: 40px;}  
+.banner_section h3 { text-align: center; color: #fff;    font-size: 17px;
+    font-weight: 500;padding-top: 30px; } 
+.banner_section p { text-align: center; margin-top: 40px } 
+.banner_section p a {background: #cf4d43 url(../image/rightarrow.png) 275px 20px no-repeat ; padding: 13px 70px 13px 70px;color: #fff;
+    text-decoration: none;border-radius: 8px;font-size: 26px;font-weight: bold; }  
+.banner_section p a:hover { background: #21b89a url(../image/rightarrow.png) 275px 20px no-repeat ; }
+
+.product_section { padding-top: 35px } 
+.product_section h1 { text-align: center;font-size: 30px; font-weight: 700;}
+.product_section .txt1 { text-align: center; font-size: 14px}
+.product_section .product_box { position: relative; border: 1px solid #e2e2e2;height: 106px;padding-left: 78px;padding-top: 15px; margin-bottom: 20px}
+.product_section .product_box .icon {position: absolute; top: 40px;left: 25px;}
+.product_section .product_box h2 {font-size: 25px; font-weight: 600;}
+.product_section .product_box p { font-size: 13px }
+
+.product_section .btn_more { text-align: center;padding-top: 25px;border-bottom: 1px solid #e2e2e2;padding-bottom: 31px; }
+.product_section .btn_more p {}
+.product_section .btn_more p a {background: #cf4d43;padding: 12px 35px 12px 35px;color: #fff;
+    text-decoration: none;font-size: 20px;font-weight: 600;border-radius: 6px; border-bottom: 3px solid #a11120}
+.product_section .btn_more p a:hover { background: #21b89a; border-bottom: 4px solid #108f76 }
+
+.choice_section {}
+.choice_section .text2 {padding-top: 45px; font-size: 25px;font-weight: bold;}
+.choice_section .tex2 {padding-top:20px; font-size: 25px;font-weight: bold;}  
+/*.choice_section .choice_box { background: #f5f5f1; width: 180px; height: 518px  }
+.choice_section .choice_box ul { padding: 0px; margin: 0px; list-style-type: none; }
+.choice_section .choice_box ul li.nav-item { border-bottom: 1px solid black }
+.choice_section .choice_box ul li .nav-link {  border: none; background: none; width: 100%; text-align: left;}
+.choice_section .choice_box ul li .nav-link.active {color: red}*/
+.choice_box {}
+.choice_box .nav {display:block; float: left; background: #f5f5f1; width: 180px}
+.choice_box .nav .nav-link.active { background: none; color: red }
+.choice_box .nav .nav-item {border-bottom: 1px solid #d4d4d4; }
+.choice_box .nav .nav-item #Resturants-tab {background: url(../image/restur.png) 8px 15px no-repeat; padding: 10px 0px 10px 35px; position: relative;}
+.choice_box .nav .nav-item .nav-link.active:before { position: absolute; content: "";border-top: 8px solid transparent;
+    border-bottom: 8px solid transparent;border-left: 12px solid red;margin: 13px 0px 0px 125px;}
+
+.choice_box .nav .nav-item #Services-tab {background: url(../image/service.png) 8px 15px no-repeat; padding: 10px 0px 10px 35px; }
+.choice_box .nav .nav-item #Food-tab {background: url(../image/food.png) 8px 15px no-repeat; padding: 10px 0px 10px 35px;}
+.choice_box .nav .nav-item #Beauty-tab {background: url(../image/spea.png) 8px 15px no-repeat; padding: 10px 0px 10px 35px;}
+.choice_box .nav .nav-item #Tea-tab {background: url(../image/tea.png) 8px 15px no-repeat; padding: 10px 0px 10px 35px;}
+.choice_box .nav .nav-item #Shopping-tab {background: url(../image/cart.png) 8px 15px no-repeat; padding: 10px 0px 10px 35px;}     
+.choice_box .nav .nav-item #Brunch-tab {background: url(../image/brunch.png) 8px 15px no-repeat; padding: 10px 0px 10px 35px;}
+.choice_box .nav .nav-item #Bars-tab {background: url(../image/bars.png) 8px 15px no-repeat; padding: 10px 0px 10px 35px;}
+.choice_box .nav .nav-item #Medical-tab {background: url(../image/hrart.png) 8px 15px no-repeat; padding: 10px 0px 10px 35px;}
+.choice_box .nav .nav-item #Automotive-tab {background: url(../image/car.png) 8px 15px no-repeat; padding: 10px 0px 10px 35px;}
+.choice_box .nav .nav-item #More-tab {background: url(../image/restur.png) 8px 15px no-repeat; padding: 10px 0px 10px 35px;}
+
+
+
+.choice_box .nav .nav-item:last-child { border-bottom: none; }
+.choice_box .nav .nav-link { color: black; border:none;;width: 100%;text-align: left; font-size: 13px; font-weight: bold; }
+.choice_box .nav .nav-link samp {display: block;font-size: 12px;color: #989898;}
+.choice_box .tab-content { overflow: hidden; }
+.choice_box .tab-content .Resturants_tex { margin-left: 20px; }
+.choice_box .tab-content .Resturants_tex h1 { font-size: 20px; font-weight: bold; float: none;}
+.choice_box .tab-content .Resturants_tex a { font-size: 14px;font-weight: 400;}
+.choice_box .tab-content .Resturants_tex a { float: right;color:black }
+.choice_box .tab-content .Resturants_tex a:hover {color: #21b89a} 
+.Resturants_tex .Resturants_itme  { position: relative; padding-top: 21px;border-top: 1px solid #edeaea; padding-bottom: 21px;}
+.Resturants_tex .Resturants_itme .ccc { position: absolute; left: 0px }
+.Resturants_itme .data {padding-left: 90px}
+.Resturants_itme .data h6 { display: inline-block; }
+.Resturants_itme .data .star { float: right; }
+.Resturants_itme .data .fff { font-size: 13px;line-height: 8px; }
+.Resturants_itme .data .tex { font-size: 12px; background: url(../image/movie.png) left top no-repeat; padding: 0px 0px 0px 40px;
+margin: -4px 0px 0px 0px;}
+
+
+
+.choice_section {}
+.choice_section .movie_slot {border-left: 1px solid #d4d4d4; padding-left: 20px; margin-top: 30px }
+.choice_section .Movies_itme  {  border-bottom: 1px solid #edeaea; margin-bottom: 15px }
+.choice_section .Movies_itme:last-child { border-bottom: none; }
+.Movies_itme .ccc { float: left;margin-right: 20px;}
+.Movies_itme .Movie_data {}
+.Movies_itme .Movie_data h6 {}
+.Movies_itme .Movie_data .star { display: inline-block; }
+.Movies_itme .Movie_data .fff {display: inline-block;margin-left: 15px;}
+.Movies_itme .Movie_data .tex { font-size: 12px }
+.Movie_data .mov_btn { padding-bottom: 15px; margin-top: -5px }
+
+.btn_view { padding-top: 15px }
+.btn_view p a {background: #21b89a;padding: 10px 20px 10px 20px;color: #fff;text-decoration: none;
+    font-size: 13px;font-weight: 600;border-radius: 6px; border-bottom: 3px solid #108f76}
+.btn_view p a:hover { background: #cf4d43; border-bottom: 3px solid red} 
+
+
+
+
+
+.Trending_section {}
+.Trending_section .Trending_aaa { position: relative; }
+.Trending_aaa h3 { font-size: 30px;font-weight: 700;border-top: 1px solid #edeaea;
+    margin-top: 50px;padding-top: 43px; }
+.Trending_aaa .btn_see {position: absolute; top: 60px; right: 0px;}
+.Trending_aaa .btn_see p a {background: #cf4d43; padding: 10px 20px 10px 20px;color: #fff; text-decoration: none;
+    font-size: 13px;font-weight: 600;border-radius: 6px; border-bottom: 3px solid #a11120}
+.Trending_aaa .btn_see p a:hover {background: #21b89a; border-bottom: 3px solid#108f76}
+.Trending_aaa .text3 { padding-bottom: 20px;font-size: 13px; border-bottom: 1px solid #edeaea; }
+/*-----
+.Trending_section ul { padding: 0px; margin: 0px; list-style-type: none; }
+.Trending_section ul li { float: left; padding: 0px ; margin: 0px }
+.Trending_section ul li.trending_itme { position: relative; }
+.Trending_section ul li.trending_itm .ico { position: absolute; }
+.Trending_section ul li .trending_itm h6 {}
+.Trending_section ul li .trending_itm p {}*/
+
+.Trending_section .trending_itme { position: relative; width: 157px; display: inline-block;border-right: 1px solid #d4d4d4;
+    margin: 15px 12px; }
+.Trending_section .trending_itme:last-child { border-right: none; }
+.Trending_section .trending_itme:nth-child(7) { border-right: none; }
+
+.Trending_section .trending_itme .ico { position: absolute; left: 0px }
+.Trending_section .trending_itme .itam_data { padding-left: 55px }
+.trending_itme .itam_data h6 { font-size: 16px;font-weight: bold; }
+.trending_itme .itam_data .aaa {font-size: 13px;line-height: 13px;}
+.trending_itme .itam_data .star { margin-top: -16px }
+
+
+
+.trending_btn { padding-top: 5px }
+.btn_green {display: inline-block; border: 1px solid green; border-radius: 5px; padding: 5px 33px 5px 10px;
+    text-decoration: none;position: relative; font-size: 10px; color: gray}
+.btn_green span {display: block; position: absolute; right: 0px; top: 0px;background: green; height: 25px;
+  width: 25px;text-align: center;color: #fff; font-size: 10px; font-family: Open sans-serif;line-height: 25px;}
+
+.btn_green.aa {display: inline-block;border: 1px solid #cf4d43;border-radius: 5px;padding: 5px 33px 5px 10px;
+    text-decoration: none;position: relative;font-size: 10px; color: gray;margin-left:5px;}
+.btn_green.aa span {display: block;position: absolute;right: 0px;top: 0px;background: #cf4d43;
+    height: 25px;width: 25px;text-align: center;color: #fff; font-size: 10px;font-family: Open sans-serif;
+    line-height: 25px;}
+    
+
+
+.background_bg { background: #eeeeee; height:auto; margin-top: 45px}
+.brand_section { padding-top: 40px;}
+.brand_section .brand_aaa { position: relative; }
+.brand_aaa .btn_brand { position: absolute; top: 0px; right: 0px }
+.brand_section h2 {font-weight: 200;padding-bottom: 25px; border-bottom: 1px solid #d4d4d4}
+.brand_section h2 strong { font-weight: bold; }
+.brand_section .btn_brand {}
+.brand_section .btn_brand p a {background: #21b89a; padding: 10px 20px 10px 20px;color: #fff; text-decoration: none;
+    font-size: 13px;font-weight: 600;border-radius: 6px; border-bottom: 3px solid #108f76}
+.brand_section .btn_brand p a:hover {background: #cf4d43; border-bottom: 3px solid red} 
+.brand_slot { position: relative; padding-top: 20px; border-bottom: 1px solid #d4d4d4; padding-bottom: 45px}
+.lSSlideWrapper.usingCss { position: static;}
+
+.brand_slot .brand_data { border-right: 1px solid #d4d4d4; padding-right: 22px; padding-left: 35px; margin-right: -3px;}
+.brand_slot li:last-child .brand_data { border-right: none; }
+.brand_slot .brand_data .text4 {font-size: 17px; padding-top: 10px;font-weight: bold;}
+.brand_slot .brand_data .text5 {font-size: 12px;line-height: 0}
+.brand_slot .brand_data .star {}
+.brand_slot .brand_data .text6 { font-size: 12px }
+.brand_slot a.lSPrev {background:#fff url(../image/parrow.png) 15px 15px no-repeat; height: 40px; width: 40px ; border-radius:  100%; left: -65px; top: 165px}
+.brand_slot a.lSPrev:hover {background:#21b89a url(../image/parro.png) 15px 15px no-repeat;}
+.brand_slot a.lSNext { background:#fff url(../image/narrow.png) 17px 15px no-repeat; height: 40px; width: 40px ; border-radius:  100%; right: -65px; top: 165px}
+.brand_slot a.lSNext:hover {background:#21b89a url(../image/narro.png) 15px 15px no-repeat;}
+
+.celebrites_section { padding-top: 60px }
+.celebrites_section .celebrites_aaa { position: relative; }
+.celebrites_aaa .btn_bran { position: absolute; top: 0px; right: 0px }
+.celebrites_section h2 {font-weight: 200;border-bottom: 1px solid #d4d4d4;padding-bottom: 25px;}
+.celebrites_section h2 strong { font-weight: bold; }
+.celebrites_section .btn_bran p a {background: #cf4d43; padding: 10px 20px 10px 20px;color: #fff; text-decoration: none;
+    font-size: 13px;font-weight: 600;border-radius: 6px; border-bottom: 3px solid #a11120 }
+.celebrites_section .btn_bran p a:hover {background: #21b89a; border-bottom: 3px solid #108f76}    
+.celebrites_slot { padding-bottom: 45px }
+.celebrites_slot ul { padding: 15px 0px 0px 0px; margin: 0px; list-style-type: none; }
+.celebrites_slot ul li {float: left;}
+.celebrites_slot .celebrites_data { border-right: 1px solid #d4d4d4; margin-right: 20px;  padding-right: 22px;}
+.celebrites_slot li:last-child .celebrites_data { border-right: none; }
+.celebrites_slot .celebrites_data .text4 {font-size: 17px; padding-top: 13px;font-weight: bold;}
+.celebrites_slot .celebrites_data .text5 {font-size: 12px;line-height: 0}
+.celebrites_slot .celebrites_data .star {}
+.celebrites_slot .celebrites_data .text6 { font-size: 12px }
+
+
+.footer_section { background: #1c1e23; height: 245px }
+.footer_section .footer_data {padding-top: 30px;}
+.footer_section .footer_data h2 {color: #fff;font-weight: 300;font-size: 25px;}
+.footer_section .footer_data ul { padding: 0px; margin: 0px; list-style-type: none; }
+.footer_section .footer_data ul li { color: #95a5a6; margin: 6px 0px 0px 0px; font-size: 15px;font-weight: 100;}
+.footer_section .footer_data ul li a { text-decoration: none; color: #95a5a6 }
+.footer_section .footer_data ul li a:hover { color: #fff }
+
+.footer_section { background: #1c1e23; height: 260px;}
+.footer_section .footer_data1 {padding-top: 30px;}
+.footer_section .footer_data1 h2 {color: #fff;font-weight: 300;font-size: 25px;}
+.footer_section .footer_data1 ul { padding: 0px; margin: 0px; list-style-type: none; }
+.footer_section .footer_data1 ul li { color: #fff; margin: 6px 0px 0px 0px; font-size: 15px;font-weight: 100;}
+.footer_section .footer_data1 ul li.tex { margin-top: 35px; font-size: 14px }
+.footer_data1 ul li .form { margin-top: 20px; position: relative; padding-right: 30px}
+.footer_data1 ul li .form-control {position: relative; background: none; border-radius: 0px; font-size: 16px;
+  border-color: #4f5367; box-shadow: none;color: #fff}
+.footer_data1 ul li .form button.btn.btn-primary { position: absolute;margin-top: -38px; margin-left: 186px;border-radius: 0px;
+    background: none; border-color: #4f5367; box-shadow: none;right: 0px }
+.footer_data1 ul li .form button.btn.btn-primary:hover { background: #e21a44; border-color: #e21a44 }
+.footer_data1 ul li .icons .hhh {display: inline-block;height: 30px;width: 30px; border: 1px solid #6b6d70;
+    margin: 10px 0px 0px 17px;text-align: center; line-height: 26px; border-radius: 100%}
+
+.footer_data1 ul li .icons .hhh:hover { background: #21b89a; border: #21b89a;}  
+    .footer_section .footer_data1.ggg {padding-left: 75px;
+}
+
+ .copyright { background: #010101; height: 70px }
+ .copyright .img { padding-top: 24px }
+ .copyright h1 {font-size: 14px; color: #fff; padding-top: 25px; text-align: right;}
+
+
+@media ( max-width: 1199px) {
+
+  .head_menu .form { margin-left: 6px }
+  .head_menu .form .form-select { width: 110px;font-size: 12px;padding: 9px 0px 9px 7px;
+    background: #0d9a7e url(../image/downicon.png) 90px 12px no-repeat; }
+  .head_menu .form { width: 260px;padding-left: 114px }
+
+  .head_menu .button p a {padding: 9px 0px 9px 7px; font-size: 11px;background: #cf4d43 url(../image/arrowright.png) 95px 11px no-repeat;
+  width: 114px; }
+  .head_menu .form_btn { margin-left: 5px }
+  .head_menu .form_btn .form-select {font-size: 11px;padding: 9px 0px 9px 25px;
+    background: url(../image/downicon.png) 90px 12px no-repeat; width: 112px}
+  .head_menu .Signup p a  { padding: 12px 10px 11px 10px; font-size: 11px }  
+  .head_menu .login p a {padding: 12px 10px 11px 10px; font-size: 11px }
+
+
+  .product_section .product_box { padding-left: 65px }
+  .product_section .product_box .icon { left: 22px }
+  .product_section .product_box h2 { font-size: 22px }
+  .product_section .product_box p { font-size: 12px }
+
+  .choice_section .text2 { font-size: 20px }
+  .Movies_itme .Movie_data h6 {font-size: 14px; font-weight: 700;}
+  .Movies_itme .Movie_data .tex { font-size: 11px }
+
+  .choice_box .tab-content .Resturants_tex h1 { font-size: 17px }
+  .Resturants_itme .data h6 {font-size: 14px;font-weight: 700; }
+  .Resturants_itme .data .tex {margin: -9px 0px 0px 0px; font-size: 11px}
+  .choice_section .tex2 { font-size: 20px }
+  .choice_box .tab-content .Resturants_tex h1 { float: none; }
+  .choice_box .tab-content .Resturants_tex a { font-size: 14px;font-weight: 400;}
+
+  .Trending_section .trending_itme {margin: 15px 5px;}
+  .trending_itme .itam_data h6 { font-size: 13px }
+  .trending_itme .itam_data .aaa {font-size: 11px;line-height: 9px;}
+  .Trending_section .trending_itme { width: 142px }
+  .Trending_section .trending_itme .itam_data {padding-left: 50px;} 
+
+  .brand_slot .brand_data { padding-right: 0px }
+  .brand_slot a.lSPrev { left: -50px }
+  .brand_slot a.lSNext { right: -50px }
+  .celebrites_slot .celebrites_data { margin-right: 10px; padding-right: 10px }
+  .celebrites_slot .celebrites_data .text4 { font-size: 13px; }
+  .celebrites_slot .celebrites_data .text5 { font-size: 10px }
+  .celebrites_slot .celebrites_data .text6 { font-size: 11px }
+  .btn_green {padding: 5px 30px 5px 6px;}
+  .btn_green.aa {padding: 5px 30px 5px 6px;}
+
+  .form_section { background: #e21a44;  height: 370px; margin-top: 20px;}
+    .form_section .form_data p { font-size: 20px }
+    .form_section .form_data h1 { font-size: 40px; line-height: 40px }
+    .form_section .form_data h2 { font-size: 20px }
+    .form_data .form-control { width: 230px; font-size: 15px }
+    .form_data .form button.btn.btn-primary { font-size: 15px }
+
+    .footer_section .footer_data h2 { font-size: 20px }
+    .footer_section .footer_data ul li { font-size: 11px }
+    .footer_section .footer_data1 h2 { font-size: 20px }
+   .footer_section .footer_data1 ul li { font-size: 11px }
+}
+
+
+  @media ( max-width: 991px) { 
+
+    .head_top { height: 110px;  }
+    .head_menu {position: relative;}
+    .head_menu .form { position: absolute; width: 455px; top: 50px;margin-left: 0px }
+    .head_menu .button {float: left; position: absolute; right: 0px; top: 48px;}
+    .head_menu .form_btn { position: absolute;top: 50px; right: 120px }
+    .head_menu .Signup { float: right; }
+    .head_menu .login { float: right; }
+    .banner_section {}
+    .banner_section h1 { font-size: 30px }
+    .banner_section h2 { font-size: 38px }
+    .banner_section h3 { font-size: 14px }
+    .banner_section p a {background: #cf4d43 url(../image/rightarrow.png) 190px 18px no-repeat;
+    padding: 13px 59px 13px 20px;color: #fff;text-decoration: none;border-radius: 8px;font-size: 21px;font-weight: bold;}
+    .banner_section p a { background-size: 13px }
+    .product_section .txt1 { font-size: 11px }
+    .product_section .product_box { padding-top: 7px }
+    .product_section .product_box h2 { font-size: 17px }
+    .product_section .product_box p { font-size: 8px }
+    .product_section .product_box { height: 70px }
+    .product_section .product_box .icon { top: 20px }
+
+
+    .choice_section .movie_slot { border-left: none; padding-left: 0px }
+    .choice_box .tab-content .Resturants_tex h1 { float: none; }
+    .choice_box .tab-content .Resturants_tex a { font-size: 14px;font-weight: 400;}
+
+    .Trending_aaa .text3 { font-size: 11px }
+    .Trending_section .trending_itme { width: 160px }
+
+
+    .celebrites_slot ul li { width: 232px; margin-bottom: 25px }
+    .celebrites_slot .celebrites_data {margin-right: 45px}
+    
+    .celebrites_slot li:nth-child(3) .celebrites_data {border-right: none;}
+
+    .Trending_section .trending_itme:nth-child(5) {border-right: none;}
+    .Trending_section .trending_itme:nth-child(9) {border-right: none;} 
+    .Trending_section .trending_itme:nth-child(13) {border-right: none;} 
+
+    .footer_section .footer_data1 { margin: 0px 0px 0px -30px }
+    .footer_section .footer_data h2 { font-size: 15px }
+    .footer_data1 ul li .form button.btn.btn-primary { margin-left: 160px }
+    .footer_data1 ul li .icons .hhh { margin: 0px 0px 0px 11px }
+    .footer_section .footer_data1.ggg { padding-left: 66px } 
+    .footer_section .footer_data1 ul li .icons {margin-top: 20px; margin-left: -10px }
+    .footer_section .footer_data1 ul li.tex { font-size: 11px }
+    .footer_data1 ul li .form { padding-right: 50px }
+    .footer_data1 ul li .form button.btn.btn-primary { right: 20px }
+   }
+  
+
+
+
+@media ( max-width: 767px) {
+
+    .head_menu .form { width: 280px }
+    .banner_section p a {    background: #cf4d43 url(../image/rightarrow.png) 150px 14px no-repeat;
+    padding: 11px 35px 11px 20px;font-size: 17px}
+    .banner_section p a { background-size: 13px }
+
+    .Trending_section .trending_itme { width: 159px}
+    .Trending_section .trending_itme:nth-child(4) {border-right: none;}
+    .Trending_section .trending_itme:nth-child(5) {border-right: 1px solid #d4d4d4;}
+    .Trending_section .trending_itme:nth-child(9) {border-right: 1px solid #d4d4d4;}
+    .Trending_section .trending_itme:nth-child(10) {border-right: none;}
+    .Trending_aaa .text3 {font-size: 11px; padding-top: 10px;}
+
+    .celebrites_slot ul li { width: 172px; }
+    .celebrites_slot .celebrites_data { margin-right: 19px }
+
+    .product_section .btn_more p a { font-size: 12px;padding: 9px 20px 9px 20px; }
+
+    .Resturants_itme .data h6 { font-size: 13px }
+    .Resturants_itme .data .fff { font-size: 11px }
+    .Resturants_tex .Resturants_itme { padding-top: 12px; padding-bottom: 12px }
+    .btn_view p a {font-size: 12px;padding: 9px 20px 9px 20px;}
+
+    .choice_box .tab-content .Resturants_tex h1 { float: none; }
+    .choice_box .tab-content .Resturants_tex a { font-size: 14px;font-weight: 400;}
+
+    .Trending_aaa h3 { margin-top: 25px;padding-top: 25px }
+    .Trending_aaa h3 { font-size: 20px }
+    .Trending_aaa .btn_see p a {font-size: 12px;padding: 9px 20px 9px 20px;}
+    .Trending_aaa .btn_see { top: 30px }
+
+
+    .brand_slot .brand_data { padding-left: 60px }
+    .brand_section h2 { font-size: 20px }
+    .brand_section .btn_brand p a {font-size: 12px;padding: 9px 20px 9px 20px;}
+
+    .celebrites_section h2 { font-size: 20px }
+    .celebrites_section .btn_bran p a {font-size: 12px;padding: 9px 20px 9px 20px;}
+
+
+
+    .footer_section {height: auto;}
+    .footer_section .footer_data { text-align: center; }
+    .footer_section .footer_data ul li { display: inline-block;margin: 6px 10px 0px 0px }
+    .footer_section .footer_data1 { margin:0px 0px 0px 0px; text-align: center; }
+    .footer_section .footer_data1.ggg {padding-left:0px;}
+    .footer_section .footer_data1 ul li.tex {margin-bottom: 20px; margin-top: 20px;}
+    .footer_data1 ul li .form-control {width: 100%}
+
+    .copyright { height: auto; }
+    .copyright .img { text-align: center; }
+    .copyright h1 { float: none;text-align: center; }
+
+   
+}
+
+
+
+@media ( max-width: 575px) {
+
+
+  .banner_section p a { background-size: 13px }
+  .product_section .btn_more p {  float: left;}
+  .choice_box .nav  { width: 100% }
+  .choice_box .tab-content { float: none; padding-top: 20px }
+
+  .choice_box .tab-content .Resturants_tex { margin-left: 0px }
+  .choice_box .tab-content .Resturants_tex h1 { float: none; }
+  .choice_box .tab-content .Resturants_tex h1 {font-size: 17px;border: 1px solid #d4d4d4;padding: 10px;}
+  .choice_box .tab-content .Resturants_tex a { font-size: 14px;font-weight: 400; display: none;}
+  h1 { background: url(../image/uparrow.png) right 12px no-repeat; }
+  h1.active { background: url(../image/downarrow.png) right 12px no-repeat; color: red }
+
+
+  .brand_slot a.lSPrev { left: 0px }
+  .brand_slot a.lSNext { right: 0px }
+
+  .brand_slot .brand_data { padding-left: 100px }
+  .Trending_section .trending_itme { text-align: left; width: auto; border-right: none;}
+  .Trending_section .trending_itme:nth-child(5) { border-right: none; }
+  .Trending_section .trending_itme:nth-child(9) { border-right: none; }
+
+  .celebrites_slot .celebrites_data { border-right: none; margin-top: 25px}
+
+  .brand_section h2 {text-align: center; padding-bottom: 60px}
+
+  .celebrites_section h2 { text-align: center; padding-bottom: 80px }
+
+
+
+  .celebrites_slot ul li { max-width: 350px;  float: none; text-align: left; margin: 0px auto; padding-bottom: 20px  }
+
+.brand_slot { max-width: 350px; margin: 0px auto }
+
+.head_menu .logo {text-align: center;padding-bottom: 40px; float: none;}
+.head_menu .form { width: 100% }
+.head_menu .button { position: static; margin-top: 25px;margin-left: -8px;}
+.head_menu .form_btn { position: static; margin-top: 25px }
+.head_menu .number { display:none; }
+.head_top { height: 145px }
+.head_menu .Signup { margin-top: 29px }
+.head_menu .login {margin-top: 29px}
+
+.brand_aaa .btn_brand { position: static; text-align: center;margin-top: -50px }
+.celebrites_aaa .btn_bran { position: static;text-align: center; margin-top: -65px; }
+.celebrites_slot ul { padding-left: 33px }
+
+.choice_box .nav { display: none; }
+.tab-content>.tab-pane { display: block;opacity: 1; }
+.Resturants_tex .Resturants_itme { display: none; }
+
+
+
+}
